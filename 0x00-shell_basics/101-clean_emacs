@@ -1,2 +1,2 @@
 #!/bin/bash
--type f -name '*~' -exec rm '{}' \;
+find . -type f -name '*~' -exec rm -f '{}' \
